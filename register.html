@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <input type="checkbox" id="switch">
+        <label for="switch">
+            <div class="toggle"></div>
+            <div class="names">
+              <p class="light">Light</p>
+              <p class="dark">Dark</p>
+            </div>
+          </label>
+
+        <form action="success.html" method="get">
+            <a href="#" class="header-logo"><span class="iheader">i</span>RESOLVE</a>
+                <h1 class="hreg">Register</h1>
+            <h2>Create new Account</h2>
+            <input type="text" id="firstname" placeholder="First Name"><br>
+            
+            <input type="text" id="lastname" placeholder="Last Name"><br>
+            
+            <input type="tel" id="phonenumber" placeholder="Phone Number"><br>
+            
+            <input type="email" id="email" placeholder="E-mail"><br>
+           
+            <input type="password" id="password" placeholder="Password"><br>
+            
+            <input type="password" value="" placeholder="Confirm Password"><br>
+
+            <input type="radio" id="manager" name="position"> 
+            <label for="manager">Manager</label><br>
+
+            <input type="radio" id="staff" name="position">
+            <label for="staff">Staff</label><br>
+
+            <select type="department" name="feedback" id="department" placeholder="Department">
+                <option value="department">Department</option>
+                <option value="IT">IT Support</option>
+                <option value="acc">Accounting</option>
+                <option value="HR">HR</option>
+            </select>
+            <br>
+            <button type="submit" class="register-btn">SIGN UP</button><br>
+            <p >Have an account?<a href="#">Sign In</a></p>
+        </form>
+    </main>
+</body>
+</html> 
